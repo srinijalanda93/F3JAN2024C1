@@ -147,3 +147,53 @@ header {
   font-size: 20px;
   text-transform: lowercase;
 }
+@media screen and (max-width: 480px){
+  .input-info {
+    background-color: rgba(52, 52, 74, 1) !important;
+    width: 70vw !important;
+    height: auto !important; /* Set height to auto to allow dynamic height adjustment */
+    display: flex; /* Change display to flex */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  .input-info > label,
+  .input-info > input {
+    display: inline-block !important;
+    margin: 5px; /* Add margin for spacing between label and input */
+  }
+  button{
+    margin-top:5px;
+    font-weight: 700;
+  }
+  .active-timer h2 {
+    color: white;
+    font-size: 17px;
+  }
+  .active-timer {
+    margin-inline: auto;
+    width: 70vw !important;
+    background-color: rgba(52, 52, 74, 1);
+    margin-block: 20px;
+    padding-block: 10px;
+    padding-inline: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .active-timer>p{
+    margin-right: 7px !important;
+  }
+  .timeupdiv{
+    width: 65% !important;
+  }
+  .timeupdiv p {
+    font-weight: 800!important ;
+  }
+}
+
+
+
